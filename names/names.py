@@ -13,19 +13,17 @@ f.close()
 
 
 duplicates = []
+# Initialize Binary Tree Here
 BST1 = BinarySearchTree("Philip Johnson")
+# Insert all the names of list 1 into the BST
 for name_1 in names_1:
     BST1.insert(name_1)
+# Loop through all the names in List 2 and for each name check if the BST contains it
 for name_2 in names_2:
     if BST1.contains(name_2):
+# If it contains the name, append it to the duplicates List
         duplicates.append(name_2)
-# BST2 = BinarySearchTree("James Bond")
-# for name in names_1:
-#     BST1.insert(name)
-# for name in names_2:
-#     BST2.insert(name)
 
-# BST1.contains(BST2)
 
 
 end_time = time.time()
