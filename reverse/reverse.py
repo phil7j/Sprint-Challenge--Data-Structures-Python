@@ -62,11 +62,11 @@ class LinkedList:
     # Set last node as head
     self.head = previous_one
 
-LL = LinkedList()
 
+# LL = LinkedList()
 # LL.add_to_head(3)
 # LL.add_to_head(2)
 # LL.add_to_head(1)
 # print(LL.head.value)
-print(LL.reverse_list())
+# print(LL.reverse_list())
 # print(LL.head.value)
