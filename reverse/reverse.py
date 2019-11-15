@@ -47,11 +47,13 @@ class LinkedList:
     # PUT PREVIOUS, CURRENT and NEXT into variables to use
     previous_one = None
     current_one = self.head
+    # before setting next_one check to see if it's None, if it is return None
     if current_one == None:
       return None
     next_one = current_one.next_node
+    # Loops through the SLL as long as the current node is not None
     while current_one:
-      # Now set the previous node as the next one
+      # Now set the Curren't node to point to the previous Node
       current_one.next_node = previous_one
 
       # Now move forward
