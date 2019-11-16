@@ -1,6 +1,6 @@
 import time
 from binary_search_tree import BinarySearchTree
-# The runtime is currenty O(n2)
+# The runtime is currenty O(n^2)
 start_time = time.time()
 
 f = open('names_1.txt', 'r')
